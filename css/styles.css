@@ -527,6 +527,11 @@ img {
   fill: #f4f4fd;
 }
 
+.footer-subscribe-wrapper {
+  align-items: center;
+  justify-content: space-between;
+}
+
 .footer-lable-subscribe {
   color: var(--WHITE, #fff);
   font-weight: 500;
@@ -534,11 +539,54 @@ img {
   letter-spacing: 0.02em;
 }
 
+.footer-input {
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 4px;
+  outline: transparent;
+  border: 1px solid var(--WHITE, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding: 8px 16px;
+  margin-right: 24px;
+}
+
 .footer-input::placeholder {
-  color: var(--WHITE, #fff);
+  color: #fff;
   font-size: 12px;
-  line-height: 2; /* 200% */
+  line-height: 2;
   letter-spacing: 0.04em;
+}
+
+.footer-form-button {
+  width: 165px;
+  height: 40px;
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+  border-radius: 4px;
+  background: var(--IRIS, #4d5ae5);
+  color: var(--WHITE, #fff);
+  text-align: center;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  margin-left: 8px;
+}
+
+.footer-input-wrapper {
+  display: flex;
+}
+
+.footer-subscribe-icon {
+  fill: var(--WHITE, #fff);
+  margin-left: 16px;
 }
 
 /* MODAL WINDOW  */
